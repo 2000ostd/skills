@@ -1,11 +1,11 @@
 ---
 name: interview
-description: Interview the user in a thorough and detailed manner about a prompt to gather every single piece of information needed to craft a production grade implementation plan covering everything from simple facts to most complex edge cases.
+description: Interview the user in a thorough and detailed manner about a prompt to gather every single piece of information needed to craft a production grade implementation plan covering the system design, logic and the edge cases not the GUI.
 ---
 
 # interview
 
-Interview the user in a thorough and detailed manner about a prompt to gather every single piece of information needed to craft a production grade implementation plan covering everything from simple facts to most complex edge cases, the interview is conducted in a round by round manner each round presents all the possible questions with the current knowledge and understanding and builds upon the previous rounds until the goal is reached.
+Interview the user in a thorough and detailed manner about a prompt to gather every single piece of information needed to craft a production grade implementation plan covering the system design, logic and the edge cases not the GUI, the interview is conducted in a round by round manner each round presents all the possible questions with the current knowledge and understanding and builds upon the previous rounds until the goal is reached.
 
 ## Rules
 

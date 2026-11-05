@@ -1,23 +1,31 @@
 # Question template
 
-Every question asked MUST be rendered from this template. In chat, replace `<id>`, `<short-title>`, `<question>`, and the recommendation list.
+Every question asked MUST be rendered from this template. In chat, replace `<id>`, `<question>`, `<why this question matters>`, `<best approach>`, `<why this is the best approach>`, and the alternative approaches.
 
 ```markdown
-### Q<id>: <short-title>
+**Q<id>:** <question>
 
-**Question:** <question>
+**Why this question matters?**
+<why this question matters>
 
-**Recommendations:**
+**Best approach:**
+<best approach>
 
-1. <strongest recommendation>
-2. <second-strongest recommendation>
-3. <recommendation>
+**Why this is the best approach?**
+<why this is the best approach>
+
+**Alternative approaches:**
+
+1. <alternative approach>
+2. <alternative approach>
    ...
 ```
 
 Rules:
 
 - `<id>` is the sequential question number (`Q1`, `Q2`, `Q3`, ...). Ids are never reused; each new round continues the sequence.
-- `<short-title>` is a concise title for the question.
 - `<question>` is the full question, self-contained and unambiguous.
-- Recommendations are ordered by strength: the lower the number, the stronger the recommendation (`1` is the strongest).
+- `<why this question matters>` explains why the answer is needed and what it affects.
+- `<best approach>` is the strongest recommendation, stated as a single approach.
+- `<why this is the best approach>` explains why the best approach is preferred over the alternatives.
+- There can be as many alternative approaches as needed. Alternatives are ordered by strength: the lower the number, the stronger the alternative (`1` is the strongest).

@@ -6,13 +6,19 @@
 
 ## Questions & Answers
 
-### Q1: {short-title}
+**Q1:** {question}
 
-- **Question:** {question}
+**Why this question matters?**
+{why this question matters}
 
-- **Recommendations:**
-  1. {strongest recommendation}
-  2. {second-strongest recommendation}
-  3. {recommendation}
+**Best approach:** {strongest recommendation}
 
-- **Answer:** {answer}
+**Why this is the best approach?**
+{why this is the best approach}
+
+**Alternative approaches:**
+
+1. {alternative approach}
+2. {alternative approach}
+
+**Answer:** {answer}
