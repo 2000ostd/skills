@@ -16,3 +16,15 @@ Apply these guidelines whenever you build, change or review a user interface so 
 ## Typography
 
 For the numbers always use the project's default English font family.
+
+## Color
+
+For general texts based on their importance use one of these tokens:
+
+- --color-on-surface-primary (default)
+- --color-on-surface-secondary
+- --color-on-surface-tertiary
+
+## Layout
+
+The default value for the border radius to use is 4px
