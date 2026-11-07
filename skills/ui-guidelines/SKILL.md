@@ -27,4 +27,5 @@ For general texts based on their importance use one of these tokens:
 
 ## Layout
 
-The default value for the border radius to use is 4px
+- The default value for the border radius to use is 4px.
+- To report and show the empty status always use the shadcn "Empty" component.
